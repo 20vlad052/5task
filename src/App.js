@@ -11,7 +11,7 @@ function App() {
   
   const handleGoBack = () => {  
     setPage("");  
-    setContent(""); // добавляем очистку контента при возврате на главную страницу
+    setContent(""); 
   };  
   
   const handleContentClick = (text) => {  
@@ -76,7 +76,7 @@ function App() {
             ) : (  
               ""  
             )}  
-            {content && ( // проверяем, есть ли контент, и если есть, рендерим его
+            {content && ( 
               <p className="content-text">{content}</p>
             )}
           </>  
