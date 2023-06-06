@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react"; 
 import { style } from "./style.css";
  
-import GameField from "./GameField"; 
+import GameField from "./GameField";
+ 
  
 function App() { 
   const [page, setPage] = useState(""); 
